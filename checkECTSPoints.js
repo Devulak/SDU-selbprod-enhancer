@@ -69,7 +69,7 @@ function CheckECTSPoints()
 	this.passed = function(values)
 	{
 		var passed = false;
-		if (values['gradesScale'].includes("F") || values['grades'].includes("AV") || values['grades'].includes("I"))
+		if (values['gradesScale'].includes("F") || values['grades'].includes("AV") || values['grades'].includes("I") || values['grades'].includes("U"))
 		{
 			passed = false;
 		}
